@@ -1,3 +1,6 @@
+#해당 Directory의 구조를 화면에 출력하는 기능
+import glob, os.path
+
 def traverse(dir, depth) :
 	for obj in glob.glob(dir+'/*'):
 		if depth == 0:
