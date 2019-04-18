@@ -24,11 +24,16 @@ def  screenLeftClick(x,y) :
        tSize = random.randrange(1,10)
        turtle.shapesize(tSize)
 
-       tTilt = random.randrange(10, 350)
-       turtle.tilt(tTilt)
-
-       turtle.stamp()
+       turtle.pendown()
        turtle.goto(x,y)
+
+def screenRightClick(x,y) :
+      turtle.penup()
+      turtle.goto(x,y)
+
+def screenMidClick(x,y) :
+      tSize = random.randrange(1,10)
+      turtle.shapesize(tSize)
 
 ## 변수 선언 ##
 myT = None
@@ -77,7 +82,11 @@ turtle.clearscreen()
 '''
 
 turtle.shape('classic')
+turtle.pensize(pSize)
 
 turtle.onscreenclick(screenLeftClick, 1)
+turtle.onscreenclick(screenMidClick, 2)
+turtle.onscreenclick(screenRightClick, 3)
 
 turtle.done()
+
