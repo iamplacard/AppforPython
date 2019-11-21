@@ -1,4 +1,6 @@
-## print Diamond shape ##
+## print Sand Watch ##
+## Practice print statment.
+## print asterisk based on string size.
 
 ## 함수 선언 ##
 
