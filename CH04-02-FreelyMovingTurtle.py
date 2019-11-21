@@ -1,4 +1,9 @@
-## 동전 교환 
+## Free moving turtle
+## Setup turtle first. Define title, shape, pensize of turtle. Define window size with width, height
+## Assign pencolor. Assign angle and distance to move automatically.
+## Change angle and go by distance amount.
+## Set current position of cursor
+## if it is within window area, then penup, go and pendown. And repeat until exit.
 
 import turtle
 import random
