@@ -3,7 +3,7 @@
 ## Assign pencolor. Assign angle and distance to move automatically.
 ## Change angle and go by distance amount.
 ## Set current position of cursor
-## if it is within window area, then penup, go and pendown. And repeat until exit.
+## if it is within window area, then keep print. if it is out of bound 5 times, then exit program.
 
 import turtle
 import random
