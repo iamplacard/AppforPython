@@ -1,6 +1,4 @@
-## Diamon Star ##
-## Diamond 모양 출력
-
+## print examnple - digit / float / string
 ## 함수 선언 ##
 
 def p() :
