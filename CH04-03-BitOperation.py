@@ -1,4 +1,7 @@
-## 동전 교환 
+## Bit operation example code
+## ord() It convert character to ASCII code value. A = 65(ASCII code value) / a = 97(ASCII Code value)
+## 문자 A 와 a 의 차이인 32 를 가지고, 문자 A 를 Masking 하면 ==> 문자 a 가 되네요
+## 문자 A 와 a 의 차이인 32 를 가지고, 문자 a 를 Masking 하면 ==> 문자 A 가 되네요
 
 ## 변수 선언 ##
 
