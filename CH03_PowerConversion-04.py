@@ -1,5 +1,9 @@
-## Diamon Star ##
-## Diamond 모양 출력
+## Power Conversion program
+## I present power conversion program which decides type of power first and then input the number to convert.
+## If it is not right select, notify that it is not within scope and exit program.
+## If you got right selection within scope, then check power index and convert input number you typed to decimal digit.
+## Print all numbers converted.
+## Used main function instead of single program.
 
 ## 함수 선언 ##
 def main() :
