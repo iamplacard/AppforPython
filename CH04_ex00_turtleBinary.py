@@ -28,6 +28,8 @@ if __name__ == "__main__" :
     binary1 = bin(num1)
     curX = swidth / 2
     curY = (sheight / 3)
+    
+    ## -2 를 빼주는 것은 binary1 이 0b1010 으로 이미 "0b" 에 대한 2개를 빼줘야 한다.
     for i in range(len(binary1) - 2) :
         turtle.goto(curX, curY)
         if num1 & 1 :
