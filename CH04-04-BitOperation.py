@@ -1,4 +1,7 @@
-## 동전 교환 
+## bit operation
+## Left shift 연산 
+## Right Shift 연산
+## shift 할 숫자와 출력할 횟수를 입력 받는 프로그램
 
 ## 변수 선언 ##
 a       = 100
