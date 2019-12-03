@@ -29,7 +29,7 @@ if __name__ == "__main__" :
         tName = tmpTup[0]  ## tuple 의 첫번째 원소이지...
         tWeight = tmpTup[1]
         if tName in trainDic :
-            trainDic[tName] += tWeight
+            trainDic[tName] += tWeight    ## tName 이 키가 되고 여기에 tWeight 가 Value 로 들어가는 구나! 즉 추가 되는 형태
         else :
             trainDic[tName] = tWeight
 
